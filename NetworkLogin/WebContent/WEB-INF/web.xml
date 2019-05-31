@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app id="WebApp_ID">
+	<display-name>NetworkLogin</display-name>
+	<servlet>
+		<servlet-name>kingkhan</servlet-name>
+		<display-name>kingkhan</display-name>
+		<description></description>
+		<servlet-class>Singh.kingkhan</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<display-name>Register</display-name>
+		<description></description>
+		<servlet-class>com.shyam.Register</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShyamKing</servlet-name>
+		<display-name>ShyamKing</display-name>
+		<description></description>
+		<servlet-class>Singh.ShyamKing</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>kingkhan</servlet-name>
+		<url-pattern>/kingkhan</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShyamKing</servlet-name>
+		<url-pattern>/ShyamKing</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+	</welcome-file-list>
+    
+</web-app>

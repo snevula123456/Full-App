@@ -1,0 +1,24 @@
+{
+  "name": "network",
+  "version": "1.0.0",
+  "description": "Social net work theme with static pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snevula123456/Network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snevula123456/Network/issues"
+  },
+  "homepage": "https://github.com/snevula123456/Network#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
